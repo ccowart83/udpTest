@@ -30,12 +30,11 @@ namespace udpTest
 			string receiveData = Encoding.ASCII.GetString (receiveBytes);
 			//string output = Encoding.ASCII.GetString(receiveBytes.ToString());
 
-			Console.WriteLine("Received Data:\n\r" + receiveData.ToString());
-		
-			//Console.WriteLine (output);
-
+			Console.WriteLine("Received Data:\n\r" + receiveData);
+	
 			ucr.Close();
 			ucs.Close();
+		
 		}
 	}
 }
